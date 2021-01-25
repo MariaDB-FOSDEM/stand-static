@@ -1,0 +1,100 @@
+p, li {
+  line-height: 19px;
+}
+
+
+.table th, .table td {
+  padding: 8px;
+  line-height: 20px;
+  text-align: left;
+  vertical-align: top;
+  border-top: 1px solid#ddd;
+}
+.table-condensed th, .table-condensed td {
+    padding: 4px 5px;
+}
+
+a.quiet {
+    color: inherit;
+}
+
+.c1 {
+    background-color: #69D2E7 !important;
+}
+
+.c2 {
+    background-color: #A7DBD8 !important;
+}
+
+.c3 {
+    background-color: #E0E4CC !important;
+}
+
+.c4 {
+    background-color: #F38630 !important;
+}
+
+.c5 {
+    background-color: #FA6900 !important;
+}
+
+.c6 {
+    background-color: #EA813D !important;
+}
+
+.c7 {
+    background-color: #E7A350 !important;
+}
+
+.c8 {
+    background-color: #FCC777 !important;
+}
+
+.c9 {
+    background-color: #C3DBB9 !important;
+}
+
+.c10 {
+    background-color: #A79474 !important;
+}
+
+.platinum-sponsors-container,
+.gold-sponsors-container {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+}
+
+.platinum-sponsors-container .sponsor {
+  width: 120px;
+  margin: 0 10px 10px 10px;
+}
+
+.gold-sponsors-container .sponsor {
+  width: 75px;
+  margin: 10px;
+}
+
+.gold-sponsors-container .sponsor:nth-child(2) {
+  width: 60px;
+}
+
+.gold-sponsors-container .sponsor:nth-child(3) {
+  width: 90px;
+}
+
+.sponsor:first-child {
+  margin-left: 0;
+}
+
+@media only screen and (max-width: 990px) {
+  .platinum-sponsors-container {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+  }
+
+  .platinum-sponsors-container .sponsor {
+    margin: 10px 0;
+  }
+}
