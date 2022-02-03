@@ -61,7 +61,7 @@ a.quiet {
 .platinum-sponsors-container,
 .gold-sponsors-container {
   display: flex;
-  flex-flow: row nowrap;
+  flex-flow: row wrap;
   align-items: center;
 }
 
